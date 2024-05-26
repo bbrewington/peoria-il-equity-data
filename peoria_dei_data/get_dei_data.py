@@ -105,6 +105,7 @@ def run_scrape(url_list_file_path, pages_dir_path, use_local):
     
     return df
 
+# %%
 if __name__ == '__main__':
     df = run_scrape(
         url_list_file_path='../data/scrape_run_20231009/business_pages.txt',
@@ -114,3 +115,5 @@ if __name__ == '__main__':
     output_csv_file_path = '../data/scrape_run_20231009/business_pages_parsed.csv'
     print(f'Saving to {output_csv_file_path}')
     df.to_csv(output_csv_file_path, index=False)
+
+# %%

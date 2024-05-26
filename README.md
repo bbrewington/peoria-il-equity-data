@@ -30,7 +30,7 @@ Glad to collaborate on this and/or pass off to Peoria people (especially women &
 
 ## Next Steps (TODO's)
 
-- Grab peoria.org Minority-Owned Businesses & see if they're captured
+- [ ] Grab peoria.org Minority-Owned Businesses & see if they're captured
   - [ ] https://peoria.org/black-owned-peoria/
   - [ ] https://peoria.org/hispanic-owned-peoria
 - [ ] Set up `peoria_dei_data/get_dei_data.py` to accept command-line arguments (via something like argparse)
